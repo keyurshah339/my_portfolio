@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&display=swap');
+body {
+font-family: 'Montserrat',
+sans-serif;
+}
+
+:root{
+    --primary-color: #B4D7BF;
+    --dark-gray:  #6B7280;
+    --light-gray: #D1D5DB;
+    font-weight: 500;
+
+}
+
+
+
+hr{
+   margin: 2rem;
+}
+
+
+/* container */
+
+.container{
+   padding: 1rem;
+}
+
+.container-center{
+    max-width: 600px;
+    margin: auto;
+}
+
+.link{
+   text-decoration-line: none;
+   padding: 0.5rem 1rem;
+    margin-top: 1rem;
+   margin-bottom: 1rem; 
+}
+
+.navigator .link-active{
+    font-weight: bold; 
+}
+
+
+
+.link-primary{
+     background-color:  #96b19f;
+     border-radius: 0.5rem;
+     color: white;   
+     
+
+}
+
+.link-secondary{
+    background-color: #EFBC68;
+    border-radius: 0.5rem;
+    color: white;   
+    
+
+}
+
+
+.list-bullet-points{
+    list-style: none;
+
+}
+
+.list-inline-items{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.list-center{
+    margin: auto;
+    text-align: center;
+}
+
+.navigator{
+    background-color: var(--primary-color);
+    color: white;
+    padding : 0.5rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigator .link{
+    color: white ;
+    
+}
+
+.brand{
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+
+}
+.nav-pills{
+    text-align: right;
+    font-size: 1rem;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+
+ .hero-image{
+    margin: auto;
+        max-width: 100%;
+        max-width: 350px;
+        display: block;
+    padding: 2rem;
+}
+
+.hero .hero-heading{
+    color : var(--dark-gray);
+    padding: 1rem;
+    text-align: center;
+}
+
+.hero .hero-heading .hero-inverted{
+     color: var(--primary-color);
+}
+
+.section-heading-center{
+    text-align: center;
+    color: black;
+}
+
+
+.section-heading-center .proj {
+    
+    color: black;
+}
+
+.section-gray-section .section-boldtext{
+    font-weight: bolder;
+}
+.section-text-center{
+    text-align: center;
+
+}
+ .gray-section{
+    background-color: #F2EEEE;
+    border-radius: 1rem;
+    padding: 1rem 1rem;
+}
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 1rem 0rem;
+    text-align: center;
+    color: white;
+}
+.footer .links{
+    color: white;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+}
+
+.footer .footer-heading{
+    font-weight: bold;
+    font-size: large;
+}
+   
+.projects .date {
+    margin-bottom: -0.7rem;
+    font-size: 0.8rem;
+
+}
+
+.projects ul{
+    padding-inline-start: 0px;
+    margin-block-start: 1em;
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+html, body{
+  height: 100%;
+  font-weight: 800;
+}
+
+body{
+  background: white;
+  font-family: Arial;
+}
+
+svg {
+    display: block;
+    font: 10.5em 'Montserrat';
+    width: 960px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 5px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+	stroke: #4D163D;
+	animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+	stroke: #840037;
+	animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+	stroke: #BD0034;
+	animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+	stroke: #BD0034;
+	animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+	stroke: #FDB731;
+	animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+	100% {stroke-dashoffset: -35%;}
+}
+
+
+  
+  .buttonmain {
+    
+      
+      border-radius: 1rem;
+
+    background-color: #EFBC68;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .buttonmain:hover {opacity: 1}
+  
+  .buttoncentre{
+      display: flex;
+      align-items: flex-end;
+  }
+
+
+  .button-pills{
+    text-align: center;
+    font-size: 1rem;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.google{
+    font-size: medium;
+    font-family: 'Lobster', cursive;
+}
+
+.react-image{
+    height: 45px;
+    width: 45px;
+}
+
+.backgroundfooter{
+    background-color: #FFC09A;
+}
+
+.lines{
+    color: #F1C40F;
+    background-color: #F1C40F ;
+    
+}
+
+.navbuttons{
+    color:#EFBC68;
+}
